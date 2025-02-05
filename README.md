@@ -6,18 +6,18 @@ preprocess, transform data and load it to Google Cloud
 build unsupervised anomaly detection model
 deploy it on Streamlit app to get predictions
 
-# Data ingestion from Google Cloud Bucket:
+### Data ingestion from Google Cloud Bucket:
 one excel file "Banking Clients' with three data sheets: 'Clients - Banking', 'Nationality', 'Clients';
 two .txt files: 'Banking Contact', 'Investment Advisor'
 
-# Merging tables:
+### Merging tables:
 data modeling
 
-# Uploading clean data to Cloud
+### Uploading clean data to Cloud
 flatten data for ML and BI usage
 
-# ANOMALY DETECTION MODEL CREATION 
+### ANOMALY DETECTION MODEL CREATION 
 - Unsupervised Isololation Forest model 
 
-# Get predictions
+### Get predictions
 
