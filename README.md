@@ -2,8 +2,8 @@
 
 The aim of this project was to:
 - ingest raw, real-world data from several tables stored in Google Cloud
-   - in notebooks and scripts:
 - preprocess, transform data and load it to Google Cloud
+- upload flattened and cleaned data for BI analytics
 - build unsupervised anomaly detection model
 - deploy it on Streamlit app to get predictions
 
