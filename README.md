@@ -4,7 +4,7 @@ The aim of this project was to:
 ingest raw, real-world data from several tables stored in Google Cloud
 preprocess, transform data and load it to Google Cloud
 build unsupervised anomaly detection model
-using predictions as labels, new supervised model was uploaded to Vertex AI for detection new anomalies
+deploy it on Streamlit app to get predictions
 
 # Data ingestion from Google Cloud Bucket:
 one excel file "Banking Clients' with three data sheets: 'Clients - Banking', 'Nationality', 'Clients';
@@ -20,3 +20,4 @@ flatten data for ML and BI usage
 - Unsupervised Isololation Forest model 
 
 # Get predictions
+
