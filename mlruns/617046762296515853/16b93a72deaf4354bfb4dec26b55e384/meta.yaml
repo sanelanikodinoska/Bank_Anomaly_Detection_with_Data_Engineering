@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\user\PYTHON_Data Science\Bank_Anomaly_Prediction_with_Data_Engineering\mlruns/617046762296515853/16b93a72deaf4354bfb4dec26b55e384/artifacts
+end_time: 1738717831480
+entry_point_name: ''
+experiment_id: '617046762296515853'
+lifecycle_stage: active
+run_id: 16b93a72deaf4354bfb4dec26b55e384
+run_name: legendary-quail-118
+run_uuid: 16b93a72deaf4354bfb4dec26b55e384
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738717804641
+status: 3
+tags: []
+user_id: user

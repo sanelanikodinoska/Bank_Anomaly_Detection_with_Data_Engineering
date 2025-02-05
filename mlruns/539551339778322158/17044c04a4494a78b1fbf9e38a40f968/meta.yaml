@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\user\PYTHON_Data Science\Bank_Anomaly_Prediction_with_Data_Engineering\mlruns/539551339778322158/17044c04a4494a78b1fbf9e38a40f968/artifacts
+end_time: 1738726057023
+entry_point_name: ''
+experiment_id: '539551339778322158'
+lifecycle_stage: active
+run_id: 17044c04a4494a78b1fbf9e38a40f968
+run_name: capable-seal-364
+run_uuid: 17044c04a4494a78b1fbf9e38a40f968
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738726027215
+status: 3
+tags: []
+user_id: user

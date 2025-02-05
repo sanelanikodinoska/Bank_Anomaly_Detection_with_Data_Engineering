@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1738726056972
+current_stage: None
+description: null
+last_updated_timestamp: 1738726056972
+name: Anomaly_Detection_Model
+run_id: 17044c04a4494a78b1fbf9e38a40f968
+run_link: null
+source: file:///C:\Users\user\PYTHON_Data Science\Bank_Anomaly_Prediction_with_Data_Engineering\mlruns/539551339778322158/17044c04a4494a78b1fbf9e38a40f968/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:\Users\user\PYTHON_Data Science\Bank_Anomaly_Prediction_with_Data_Engineering\mlruns/539551339778322158/17044c04a4494a78b1fbf9e38a40f968/artifacts/model
+user_id: null
+version: 3

@@ -1,0 +1,57 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.1
+model_size_bytes: 5041417
+model_uuid: e7969f6066df486aaaf6262b63e42017
+run_id: 16b93a72deaf4354bfb4dec26b55e384
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "double",
+    "name": "Estimated Income", "required": true}, {"type": "double", "name": "Superannuation
+    Savings", "required": true}, {"type": "double", "name": "Amount of Credit Cards",
+    "required": true}, {"type": "double", "name": "Credit Card Balance", "required":
+    true}, {"type": "double", "name": "Bank Loans", "required": true}, {"type": "double",
+    "name": "Checking Accounts", "required": true}, {"type": "double", "name": "Saving
+    Accounts", "required": true}, {"type": "double", "name": "Foreign Currency Account",
+    "required": true}, {"type": "double", "name": "Business Lending", "required":
+    true}, {"type": "double", "name": "Contact_to_Meeting_Days", "required": true},
+    {"type": "double", "name": "Bank_Joined_Days", "required": true}, {"type": "double",
+    "name": "Fee_Rank", "required": true}, {"type": "double", "name": "Loyalty_Rank",
+    "required": true}, {"type": "boolean", "name": "Sex_F", "required": true}, {"type":
+    "boolean", "name": "Sex_M", "required": true}, {"type": "boolean", "name": "Nationality_Asian",
+    "required": true}, {"type": "boolean", "name": "Nationality_European", "required":
+    true}, {"type": "boolean", "name": "Nationality_Indian", "required": true}, {"type":
+    "boolean", "name": "Nationality_Maori", "required": true}, {"type": "boolean",
+    "name": "Nationality_Pacific Islander", "required": true}, {"type": "boolean",
+    "name": "Properties Owned_0.0", "required": true}, {"type": "boolean", "name":
+    "Properties Owned_1.0", "required": true}, {"type": "boolean", "name": "Properties
+    Owned_2.0", "required": true}, {"type": "boolean", "name": "Properties Owned_3.0",
+    "required": true}, {"type": "boolean", "name": "Banking Relationship_Commercial",
+    "required": true}, {"type": "boolean", "name": "Banking Relationship_Institutional",
+    "required": true}, {"type": "boolean", "name": "Banking Relationship_Investments
+    Only", "required": true}, {"type": "boolean", "name": "Banking Relationship_Private
+    Bank", "required": true}, {"type": "boolean", "name": "Banking Relationship_Retail",
+    "required": true}, {"type": "double", "name": "Occupation_encoded", "required":
+    true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-02-05 01:10:20.795947'
