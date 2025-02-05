@@ -7,8 +7,8 @@ The aim of this project was to:
 - deploy it on Streamlit app to get predictions
 
 ### Data ingestion from Google Cloud Bucket:
-one excel file "Banking Clients' with three data sheets: 'Clients - Banking', 'Nationality', 'Clients';
-two .txt files: 'Banking Contact', 'Investment Advisor'
+- one excel file "Banking Clients' with three data sheets: 'Clients - Banking', 'Nationality', 'Clients';
+- two .txt files: 'Banking Contact', 'Investment Advisor'
 
 ### Merging tables:
 data modeling
@@ -20,4 +20,5 @@ flatten data for ML and BI usage
 - Unsupervised Isololation Forest model 
 
 ### Get predictions
+- both on notebook and on Streamlit app
 
